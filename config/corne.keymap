@@ -89,10 +89,10 @@
             //                    | GUI | LWR | SPC |   | SPC | L2   | L1  |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U        &kp I         &kp O    &kp P               &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J        &kp K         &kp L    &kp SEMI            &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &mt M LG(M)  &kp COMMA     &kp SQT  &mt SLASH QUESTION  &kp RIGHT_SHIFT
-                              &kp LEFT_GUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2        &kp LEFT_ALT
+&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U                &kp I         &kp O    &kp P               &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J                &kp K         &kp L    &kp SEMI            &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &mt RIGHT_BRACKET M  &kp COMMA     &kp SQT  &mt SLASH QUESTION  &kp RIGHT_SHIFT
+                              &kp LEFT_GUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2                &kp LEFT_ALT
             >;
         };
 
