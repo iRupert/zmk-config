@@ -71,6 +71,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
