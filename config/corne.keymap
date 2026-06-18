@@ -53,7 +53,7 @@
         };
 
         Backspace_ {
-            bindings = <&kp LG(BACKSPACE)>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
         };
 
