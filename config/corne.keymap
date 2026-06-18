@@ -19,12 +19,12 @@
 
         OpenParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <15 16>;
+            key-positions = <14 15>;
         };
 
         CloseParenthasis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
 
         Question {
@@ -60,6 +60,16 @@
         Dvoetochie {
             bindings = <&kp LS(NUMBER_6)>;
             key-positions = <2 3>;
+        };
+
+        CtrlC {
+            bindings = <&kp LC(C)>;
+            key-positions = <15 16>;
+        };
+
+        CtrlV {
+            bindings = <&kp LC(V)>;
+            key-positions = <19 20>;
         };
     };
 
