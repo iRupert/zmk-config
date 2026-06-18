@@ -19,41 +19,21 @@
 
         OpenParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <7 8>;
-        };
-
-        OpenBrace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <18 19>;
-        };
-
-        OpenBracket {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <30 31>;
+            key-positions = <15 16>;
         };
 
         CloseParenthasis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <8 9>;
-        };
-
-        CloseBrace {
-            bindings = <&kp RIGHT_BRACE>;
             key-positions = <19 20>;
-        };
-
-        CloseBracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <31 32>;
         };
 
         Question {
             bindings = <&kp QUESTION>;
-            key-positions = <3 4>;
+            key-positions = <8 7>;
         };
 
-        Backspace3 {
-            bindings = <&kp BACKSPACE>;
+        Delete {
+            bindings = <&kp DELETE>;
             key-positions = <4 5>;
         };
 
@@ -72,9 +52,14 @@
             key-positions = <0 1>;
         };
 
-        Delete {
-            bindings = <&kp DELETE>;
+        Backspace_ {
+            bindings = <&kp LG(BACKSPACE)>;
             key-positions = <6 7>;
+        };
+
+        Dvoetochie {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <2 3>;
         };
     };
 
