@@ -19,12 +19,12 @@
 
         OpenParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15>;
+            key-positions = <14 13>;
         };
 
         CloseParenthasis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
         };
 
         Bckspc {
